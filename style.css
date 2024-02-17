@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background: royalblue;
+}
+
+.input {
+    width: 50%;
+    height: 45px;
+    margin-right: 30px;
+
+}
+.img {
+    max-width: 100%;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
+
+@keyframes img {
+    0%{
+        scale: 0;
+    }
+    
+}
+.error {
+    font-size: 30px;
+    font-weight: 700;
+    color: red;
+    animation: error 5s alternate;
+    display: none;
+
+}
+
+@keyframes error {
+0%{
+    transform: translateX(-100px);
+    opacity: 0.5;
+}
+
+}
+
+
+
+
+
+
+
+
